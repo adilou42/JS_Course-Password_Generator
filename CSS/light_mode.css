@@ -1,0 +1,43 @@
+body {
+	background-color: #ecfdf5;
+}
+
+.green-title {
+	color: #10b981;
+	margin-top: -5px;
+}
+
+h1 {
+	color: #2b283a;
+}
+
+p {
+	/* margin-top: -20px; */
+
+	color: #6b7280;
+}
+
+.button {
+	background-color: #10b981;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+}
+
+hr {
+	margin-top: 20px;
+}
+
+.password {
+	border: none;
+	background-color: #ecfdf5;
+}
+
+#theme-button {
+	float: right;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: aquamarine;
+}

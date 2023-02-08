@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Password Generator</title>
+	<link id="styleId" rel="stylesheet" href="./CSS/light_mode.css">
+</head>
+<body>
+	<button onclick="changeTheme()" id="theme-button">Click to Dark Theme</button>
+	<h1>Generate a <p class="green-title">random password</p></h1>
+	<p>Never use an insecure password again</p>
+	<button onclick="generatePasswords()" class="button">Generate password</button>
+	<hr/>
+	<div>
+		<button id="password1-el" onclick="copyPassword1()" class="password"></button>
+		<button id="password2-el" onclick="copyPassword2()" class="password"></button>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
